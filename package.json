@@ -1,0 +1,26 @@
+{
+    "name": "waa",
+    "version": "1.0.0",
+    "description": "a simple whatsapp bot for auto answer.",
+    "main": "index.js",
+    "scripts": {
+      "dev": "nodemon index.js",
+      "start": "node index.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "gdv",
+    "license": "MIT",
+    "dependencies": {
+      "qrcode-terminal": "^0.12.0",
+      "whatsapp-web.js": "^1.19.4"
+    },
+    "devDependencies": {
+      "eslint": "^8.36.0",
+      "eslint-config-airbnb": "^19.0.4",
+      "eslint-plugin-import": "^2.27.5",
+      "eslint-plugin-jsx-a11y": "^6.7.1",
+      "eslint-plugin-react": "^7.32.2",
+      "eslint-plugin-react-hooks": "^4.6.0"
+    }
+  }
+  
